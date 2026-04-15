@@ -1,4 +1,6 @@
 ﻿using VendingMachine.Console;
+using VendingMachine.Console.Models;
+using VendingMachine.Console.Services;
 
 
 var user = new User(50);

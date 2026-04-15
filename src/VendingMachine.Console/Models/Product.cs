@@ -1,4 +1,4 @@
-namespace VendingMachine.Console;
+namespace VendingMachine.Console.Models;
 
 public class Product(string name, decimal price)
 {

@@ -1,4 +1,6 @@
-namespace VendingMachine.Console;
+using VendingMachine.Console.Models;
+
+namespace VendingMachine.Console.Services;
 
 public class Machine
 {

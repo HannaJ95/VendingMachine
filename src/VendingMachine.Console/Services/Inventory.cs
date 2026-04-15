@@ -1,5 +1,6 @@
-using System;
-namespace VendingMachine.Console;
+using VendingMachine.Console.Models;
+
+namespace VendingMachine.Console.Services;
 
 public class Inventory
 {
@@ -18,7 +19,7 @@ public class Inventory
             _stock[product.Name] += quantity;
         }
     }
-
+    
     public void ShowProducts()
     {
         for (var i = 0; i < _products.Count; i++)
