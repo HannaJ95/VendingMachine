@@ -5,9 +5,7 @@ using VendingMachine.Console.Helpers;
 var user = new User(50);
 var machine = new Machine();
 
-machine.AddProduct(new Product("Coffee", 15), 5);
-machine.AddProduct(new Product("Cola", 20), 3);
-machine.AddProduct(new Product("Marabou", 25), 7);
+machine.LoadProductsFromFile("products.json");
 
 Console.WriteLine("Welcome to this VendingMachine!");
 
